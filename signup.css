@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+label.title {
+    width: 100px;
+    font-weight: bold;
+}
+ul li {
+    margin-bottom: 10px;
+}
+div.center {
+    text-align: center;
+}
+fieldset {
+    margin: 15px 10px;
+}
+fieldset legend {
+    font-weight: bold;
+    color: purple;
+}
+.button_pri {
+    margin: 5px 0 5px 150px;
+}
+.button_info {
+    margin: 5px 0 5px 125px;
+}

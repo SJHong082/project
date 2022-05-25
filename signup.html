@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="div_center">
+    <header>
+      <div class="header">
+        <div>
+          <ul class="top">
+              <li><a href="#">로그인</a></li> &nbsp; | &nbsp;
+              <li><a href="./signup.html">회원가입</a></li> &nbsp; | &nbsp;
+              <li><a href="#">이벤트</a></li>
+          </ul>
+        </div>
+        <div>
+            <a href="./index.html"><img src="./images/korea_travel.png" alt="로고"></a>
+        </div>
+        <div class="header_h1">
+            <h1>국내 지역별 여행지</h1>
+        </div>
+      </div>
+    </header>
+
+    <nav class="nav">
+        <fieldset>
+        <div class="nav_menu">
+            <a href="#"><b>서울시</b></a>
+            <a href="#"><b>경기도</b></a>
+            <a href="#"><b>강원도</b></a>
+            <a href="#"><b>제주도</b></a>
+            <div class="dropdown_Ch">
+                <button class="dropbtn_Ch"><b>충청도</b></button>
+                <div class="dropdown-content_Ch">
+                    <a href="#">충청북도</a>
+                    <a href="#">충청남도</a>
+                </div>
+            </div>
+            <div class="dropdown_Gs">
+                <button class="dropbtn_Gs"><b>경상도</b></button>
+                <div class="dropdown-content_Gs">
+                    <a href="#">경상북도</a>
+                    <a href="#">경상남도</a>
+                </div>
+            </div>
+            <div class="dropdown_Jr">
+                <button class="dropbtn_Jr"><b>전라도</b></button>
+                <div class="dropdown-content_Jr">
+                    <a href="#">전라북도</a>
+                    <a href="#">전라남도</a>
+                </div>
+            </div>  
+        </div>
+        
+    </fieldset>
+    </nav>
+
+    <section>
+        <!-- 회원가입정보 입력창 -->
+        <div class="container">
+            <h1>회원가입</h1>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>개인정보</legend>
+                    <div>
+                        <label for="name" class="title">이름</label><input type="text" id="uname">
+                    </div>
+                    <div>
+                        <label for="number" class="title">주민번호</label><input type="text" id="number" placeholder="하이픈 없이 입력">
+                    </div>
+                    <div class="button_pri">
+                        <input type="button" value="실명인증">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>회원 정보 입력</legend>
+                    <div>
+                        <label for="id" class="title">아이디</label><input type="text" id="id" placeholder="특수문자 사용 금지" size="20">
+                    </div>
+                    <div>
+                        <label for="pwd" class="title">비밀번호</label><input type="password" id="pwd" placeholder="8~12자" size="20">
+                    </div>
+                    <div>
+                        <label for="pwd" class="title">비밀번호확인</label><input type="password" id="pwd" placeholder="8~12자" size="20">
+                    </div>
+                    <div>
+                        <label for="addr" class="title">주소</label><input type="text" id="address" size="60">
+                    </div>
+                    <div>
+                        <label for="tel" class="title">연락처</label><input type="text" id="tel" placeholder="하이픈 없이 입력">
+                    </div>    
+                </fieldset>
+                    <div class="button_info">
+                        <input type="submit" value="회원가입">
+                        <input type="reset">
+                    </div>
+            </form>
+        </div>
+    </section>
+    <hr style="margin: 5px;">
+    <footer>
+        <fieldset>
+          <div class="footer_div">
+            <h1><img src="./images/korea_travel.png" alt="로고"></h1>
+            <address class="address">
+              (주)Korea travel | 대표이사 : 홍성지 <br>
+              사업자등록번호 : 000-00-00000 | 호스팅 : github.com <br>
+              관광사업자 등록번호 : 0000-05(서울특별시 중구) <br>
+              ※해당사이트는 국내 여행지정보만을 제공하며, 어떠한 이득을 취하지 않습니다. <br>
+              ※(주)Korea Travel은 html 프로젝트용 업체이며, 모든정보는 정확하지 않습니다.
+              COPYRIGHT 1994-2022 Korea Travel. ALL RIGHTS RESERVED.
+            </address>
+          </div>
+        </fieldset>
+    </footer>
+</div>
+</body>
+</html>
